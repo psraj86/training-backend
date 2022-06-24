@@ -1,0 +1,33 @@
+{
+  "name": "company",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "maxUser": {
+      "type": "number",
+      "required": true
+    },
+    "isDivisionExist": {
+      "type": "boolean",
+      "required": true
+    },
+    "isDCRProgressive": {
+      "type": "boolean",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
