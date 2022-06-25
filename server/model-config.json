@@ -38,5 +38,9 @@
   "company": {
     "dataSource": "mongodb",
     "public": true
+  },
+  "area": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }
